@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+    background: linear-gradient(rgb(84,74,125), rgb(255,212,82))
+}
+
+.desc{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace, sans-serif;
+    margin: auto;
+}
+
+.header{
+    font-size: 72px;
+    text-decoration: underline;
+    padding: auto;
+    border: hidden;
+    color: gold;
+}
+
+.home-image{
+    height: 400px;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+.prompt{
+    font-size: 48px;
+    color: #191970;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    font-size: 40px;
+    color:#191970
+}
+
+a:hover{
+    color:white;
+}
