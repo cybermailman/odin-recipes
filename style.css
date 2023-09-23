@@ -15,13 +15,6 @@ body{
     color: #000080;
 }
 
-.image{
-    display: block;
-    margin: auto;
-    height: 300px;
-    width: auto;
-}
-
 #desc{
     padding:10px;
     margin:auto;
