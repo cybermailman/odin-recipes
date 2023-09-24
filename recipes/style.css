@@ -1,0 +1,119 @@
+html{
+    margin: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x:hidden;
+    background: linear-gradient(#636363, #a2ab58);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 60px;
+    font-weight: 700;
+    display: inline-block;
+    background-color: #eeeedd;
+    color:#6f4e37;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 0px;
+    justify-content: flex-start;
+}
+
+.description{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #eeeedd;    
+    margin:10px;
+    padding: 10px;
+}
+
+.description h2{
+    font-size: 30px;
+    margin:0px;
+    padding: 10px;
+}
+
+.description p{
+    font-size: 24px;
+    font-style: italic;
+    margin:0px;
+    padding: 10px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.ingredients, .directions{
+    width: 750px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ingredients-list, .directions-list{
+    width: 750px;
+    height: 500px;
+    background-color: #eeeedd;
+    border: 3px groove black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.directions-list{
+    text-align: left;
+}
+
+h3{
+    background-color: #097969;
+    color: white;
+    padding: 15px;
+    margin: 0px;
+    border: 3px groove black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 24px;
+    width: fit-content;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+a:hover{
+    color: white;
+}
